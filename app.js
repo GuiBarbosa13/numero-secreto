@@ -8,7 +8,7 @@ let numTent = 1
 function escreverNosCampos(tag , texto){
     let campo = document.querySelector(tag)
     campo.innerHTML = texto
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Male', {rate: 1.8})//faz falar o parâmetro texto com voz masculina, velocidade 1.8
+    //responsiveVoice.speak(texto, 'Brazilian Portuguese Male', {rate: 1.8})//faz falar o parâmetro texto com voz masculina, velocidade 1.8
 }
 
 function escreverInicial(){
